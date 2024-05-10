@@ -1,5 +1,5 @@
 # OpenSS-L
-Final Year Project
+Open-Vocabulary Semantic Segmentation of LiDAR Point Cloud
 ## Credits and Acknowledgments
 We have incorporated or modified code from the following projects:
 - Code related to szero-shot segmentation was derived from [openscene](https://github.com/pengsongyou/openscene).
