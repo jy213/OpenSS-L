@@ -1,0 +1,844 @@
+hx1-d09-gpu-04.hx1.hpc.ic.ac.uk
+torch.__version__:2.3.0+cu118
+torch.version.cuda:11.8
+torch.backends.cudnn.version:8700
+torch.backends.cudnn.enabled:True
+evaluating 58523887 points...
+classes          IoU
+----------------------------
+wall          : 0.867
+door          : 0.681
+ceiling       : 0.922
+floor         : 0.943
+picture       : 0.533
+window        : 0.513
+chair         : 0.816
+pillow        : 0.764
+lamp          : 0.668
+cabinet       : 0.531
+curtain       : 0.730
+table         : 0.546
+plant         : 0.716
+mirror        : 0.375
+towel         : 0.546
+sink          : 0.490
+shelves       : 0.444
+sofa          : 0.635
+bed           : 0.826
+night stand   : 0.646
+toilet        : 0.807
+column        : 0.411
+banister      : 0.465
+stairs        : 0.740
+stool         : 0.223
+vase          : 0.031
+television    : 0.382
+pot           : 0.093
+desk          : 0.332
+box           : 0.038
+coffee table  : 0.258
+counter       : 0.378
+bench         : 0.238
+garbage bin   : 0.448
+fireplace     : 0.776
+clothes       : 0.399
+bathtub       : 0.808
+book          : 0.000
+air vent      : 0.021
+faucet        : 0.000
+photo         : 0.000
+toilet paper  : 0.006
+fan           : 0.820
+railing       : 0.281
+sculpture     : 0.099
+dresser       : 0.293
+rug           : 0.000
+ottoman       : 0.142
+bottle        : 0.000
+refridgerator : 0.510
+bookshelf     : 0.232
+wardrobe      : 0.042
+pipe          : 0.101
+monitor       : 0.452
+stand         : 0.093
+drawer        : 0.007
+container     : 0.000
+light switch  : 0.000
+purse error!
+door way      : 0.000
+basket        : 0.038
+chandelier    : 0.509
+oven          : 0.250
+clock         : 0.000
+stove         : 0.288
+washing machine: 0.498
+shower curtain: 0.884
+fire alarm    : 0.000
+bin           : 0.002
+chest         : 0.000
+microwave     : 0.078
+blinds        : 0.000
+bowl          : 0.007
+tissue box    : 0.000
+plate         : 0.000
+tv stand      : 0.104
+shoe          : 0.000
+heater        : 0.000
+headboard     : 0.035
+bucket        : 0.000
+candle        : 0.000
+flower pot    : 0.009
+speaker       : 0.000
+furniture     : 0.000
+sign error!
+air conditioner: 0.000
+fire extinguisher: 0.000
+curtain rod   : 0.000
+floor mat     : 0.000
+printer       : 0.032
+telephone     : 0.000
+blanket       : 0.000
+handle        : 0.000
+shower head   : 0.000
+soap          : 0.000
+keyboard      : 0.000
+thermostat    : 0.000
+radiator      : 0.000
+kitchen island: 0.456
+paper towel   : 0.000
+sheet         : 0.000
+glass         : 0.000
+dishwasher    : 0.000
+cup           : 0.000
+ladder error!
+garage door   : 0.505
+hat           : 0.000
+exit sign     : 0.000
+piano         : 0.002
+board         : 0.000
+rope error!
+ball          : 0.284
+excercise equipment: 0.023
+hanger        : 0.000
+candlestick   : 0.000
+light         : 0.000
+scale         : 0.000
+bag           : 0.000
+laptop error!
+treadmill     : 0.709
+guitar error!
+display case  : 0.016
+toilet paper holder: 0.000
+bar           : 0.039
+tray          : 0.000
+urn error!
+decorative plate: 0.000
+pool table    : 0.962
+jacket error!
+bottle of soap: 0.000
+water cooler  : 0.000
+utensil       : 0.000
+tea pot       : 0.000
+stuffed animal: 0.000
+paper towel dispenser: 0.000
+lamp shade    : 0.000
+car           : 0.419
+toilet brush  : 0.000
+doll          : 0.000
+drum          : 0.000
+whiteboard    : 0.000
+range hood    : 0.237
+candelabra    : 0.000
+toy           : 0.000
+foot rest     : 0.000
+soap dish     : 0.000
+placemat error!
+cleaner       : 0.000
+computer      : 0.000
+knob          : 0.000
+paper         : 0.000
+projector     : 0.000
+coat hanger error!
+case          : 0.000
+pan           : 0.000
+luggage error!
+trinket error!
+chimney       : 0.077
+person        : 0.000
+alarm         : 0.000
+Mean IoU 0.1382245511345275
+Mean Acc 0.18491413396181586
+0.1382245511345275 0.1382245511345275
+evaluating 58523887 points...
+classes          IoU
+----------------------------
+wall          : 0.878
+door          : 0.686
+ceiling       : 0.927
+floor         : 0.947
+picture       : 0.544
+window        : 0.513
+chair         : 0.828
+pillow        : 0.769
+lamp          : 0.683
+cabinet       : 0.546
+curtain       : 0.733
+table         : 0.544
+plant         : 0.734
+mirror        : 0.375
+towel         : 0.541
+sink          : 0.507
+shelves       : 0.459
+sofa          : 0.630
+bed           : 0.837
+night stand   : 0.662
+toilet        : 0.805
+column        : 0.362
+banister      : 0.512
+stairs        : 0.745
+stool         : 0.190
+vase          : 0.027
+television    : 0.359
+pot           : 0.099
+desk          : 0.301
+box           : 0.054
+coffee table  : 0.205
+counter       : 0.364
+bench         : 0.222
+garbage bin   : 0.467
+fireplace     : 0.786
+clothes       : 0.460
+bathtub       : 0.817
+book          : 0.001
+air vent      : 0.025
+faucet        : 0.001
+photo         : 0.000
+toilet paper  : 0.003
+fan           : 0.823
+railing       : 0.347
+sculpture     : 0.075
+dresser       : 0.284
+rug           : 0.000
+ottoman       : 0.160
+bottle        : 0.000
+refridgerator : 0.522
+bookshelf     : 0.073
+wardrobe      : 0.046
+pipe          : 0.063
+monitor       : 0.359
+stand         : 0.095
+drawer        : 0.000
+container     : 0.000
+light switch  : 0.000
+purse error!
+door way      : 0.000
+basket        : 0.039
+chandelier    : 0.404
+oven          : 0.251
+clock         : 0.000
+stove         : 0.323
+washing machine: 0.539
+shower curtain: 0.860
+fire alarm    : 0.000
+bin           : 0.001
+chest         : 0.005
+microwave     : 0.041
+blinds        : 0.000
+bowl          : 0.000
+tissue box    : 0.000
+plate         : 0.000
+tv stand      : 0.076
+shoe          : 0.000
+heater        : 0.000
+headboard     : 0.065
+bucket        : 0.000
+candle        : 0.000
+flower pot    : 0.002
+speaker       : 0.000
+furniture     : 0.000
+sign error!
+air conditioner: 0.001
+fire extinguisher: 0.000
+curtain rod   : 0.000
+floor mat     : 0.000
+printer       : 0.036
+telephone     : 0.000
+blanket       : 0.000
+handle        : 0.000
+shower head   : 0.000
+soap          : 0.000
+keyboard      : 0.000
+thermostat    : 0.000
+radiator      : 0.000
+kitchen island: 0.471
+paper towel   : 0.000
+sheet         : 0.000
+glass         : 0.000
+dishwasher    : 0.000
+cup           : 0.000
+ladder error!
+garage door   : 0.453
+hat           : 0.000
+exit sign     : 0.000
+piano         : 0.000
+board         : 0.000
+rope error!
+ball          : 0.506
+excercise equipment: 0.012
+hanger        : 0.000
+candlestick   : 0.000
+light         : 0.000
+scale         : 0.000
+bag           : 0.000
+laptop error!
+treadmill     : 0.820
+guitar error!
+display case  : 0.000
+toilet paper holder: 0.000
+bar           : 0.029
+tray          : 0.000
+urn error!
+decorative plate: 0.000
+pool table    : 0.958
+jacket error!
+bottle of soap: 0.000
+water cooler  : 0.000
+utensil       : 0.000
+tea pot       : 0.000
+stuffed animal: 0.000
+paper towel dispenser: 0.000
+lamp shade    : 0.000
+car           : 0.460
+toilet brush  : 0.000
+doll          : 0.000
+drum          : 0.000
+whiteboard    : 0.000
+range hood    : 0.236
+candelabra    : 0.000
+toy           : 0.000
+foot rest     : 0.000
+soap dish     : 0.000
+placemat error!
+cleaner       : 0.000
+computer      : 0.000
+knob          : 0.000
+paper         : 0.000
+projector     : 0.000
+coat hanger error!
+case          : 0.000
+pan           : 0.000
+luggage error!
+trinket error!
+chimney       : 0.009
+person        : 0.000
+alarm         : 0.000
+Mean IoU 0.14383841012559684
+Mean Acc 0.18497253365474467
+0.13787696033541466 0.14383841012559684
+evaluating 58523887 points...
+classes          IoU
+----------------------------
+wall          : 0.882
+door          : 0.690
+ceiling       : 0.928
+floor         : 0.950
+picture       : 0.547
+window        : 0.510
+chair         : 0.829
+pillow        : 0.770
+lamp          : 0.694
+cabinet       : 0.548
+curtain       : 0.738
+table         : 0.557
+plant         : 0.737
+mirror        : 0.380
+towel         : 0.544
+sink          : 0.503
+shelves       : 0.475
+sofa          : 0.628
+bed           : 0.836
+night stand   : 0.670
+toilet        : 0.804
+column        : 0.350
+banister      : 0.510
+stairs        : 0.746
+stool         : 0.189
+vase          : 0.041
+television    : 0.326
+pot           : 0.093
+desk          : 0.291
+box           : 0.037
+coffee table  : 0.222
+counter       : 0.365
+bench         : 0.217
+garbage bin   : 0.509
+fireplace     : 0.797
+clothes       : 0.455
+bathtub       : 0.822
+book          : 0.000
+air vent      : 0.002
+faucet        : 0.001
+photo         : 0.000
+toilet paper  : 0.002
+fan           : 0.825
+railing       : 0.334
+sculpture     : 0.090
+dresser       : 0.272
+rug           : 0.000
+ottoman       : 0.175
+bottle        : 0.000
+refridgerator : 0.507
+bookshelf     : 0.067
+wardrobe      : 0.042
+pipe          : 0.062
+monitor       : 0.418
+stand         : 0.109
+drawer        : 0.000
+container     : 0.000
+light switch  : 0.000
+purse error!
+door way      : 0.000
+basket        : 0.007
+chandelier    : 0.448
+oven          : 0.258
+clock         : 0.000
+stove         : 0.334
+washing machine: 0.523
+shower curtain: 0.838
+fire alarm    : 0.000
+bin           : 0.001
+chest         : 0.000
+microwave     : 0.038
+blinds        : 0.000
+bowl          : 0.000
+tissue box    : 0.000
+plate         : 0.000
+tv stand      : 0.062
+shoe          : 0.000
+heater        : 0.000
+headboard     : 0.020
+bucket        : 0.000
+candle        : 0.000
+flower pot    : 0.000
+speaker       : 0.000
+furniture     : 0.000
+sign error!
+air conditioner: 0.000
+fire extinguisher: 0.000
+curtain rod   : 0.000
+floor mat     : 0.000
+printer       : 0.033
+telephone     : 0.000
+blanket       : 0.000
+handle        : 0.000
+shower head   : 0.000
+soap          : 0.000
+keyboard      : 0.000
+thermostat    : 0.000
+radiator      : 0.000
+kitchen island: 0.450
+paper towel   : 0.000
+sheet         : 0.000
+glass         : 0.000
+dishwasher    : 0.000
+cup           : 0.000
+ladder error!
+garage door   : 0.488
+hat           : 0.000
+exit sign     : 0.000
+piano         : 0.000
+board         : 0.000
+rope error!
+ball          : 0.535
+excercise equipment: 0.003
+hanger        : 0.000
+candlestick   : 0.000
+light         : 0.000
+scale         : 0.000
+bag           : 0.000
+laptop error!
+treadmill     : 0.864
+guitar error!
+display case  : 0.000
+toilet paper holder: 0.000
+bar           : 0.021
+tray          : 0.000
+urn error!
+decorative plate: 0.000
+pool table    : 0.986
+jacket error!
+bottle of soap: 0.000
+water cooler  : 0.000
+utensil       : 0.000
+tea pot       : 0.000
+stuffed animal: 0.000
+paper towel dispenser: 0.000
+lamp shade    : 0.000
+car           : 0.465
+toilet brush  : 0.000
+doll          : 0.000
+drum          : 0.000
+whiteboard    : 0.000
+range hood    : 0.228
+candelabra    : 0.000
+toy           : 0.000
+foot rest     : 0.000
+soap dish     : 0.000
+placemat error!
+cleaner       : 0.000
+computer      : 0.000
+knob          : 0.000
+paper         : 0.000
+projector     : 0.000
+coat hanger error!
+case          : 0.000
+pan           : 0.000
+luggage error!
+trinket error!
+chimney       : 0.000
+person        : 0.000
+alarm         : 0.000
+Mean IoU 0.14570733793282248
+Mean Acc 0.18562409805065988
+0.14071655518733972 0.14570733793282248
+evaluating 58523887 points...
+classes          IoU
+----------------------------
+wall          : 0.883
+door          : 0.689
+ceiling       : 0.928
+floor         : 0.950
+picture       : 0.549
+window        : 0.514
+chair         : 0.828
+pillow        : 0.773
+lamp          : 0.705
+cabinet       : 0.548
+curtain       : 0.735
+table         : 0.553
+plant         : 0.740
+mirror        : 0.379
+towel         : 0.546
+sink          : 0.498
+shelves       : 0.485
+sofa          : 0.632
+bed           : 0.837
+night stand   : 0.669
+toilet        : 0.806
+column        : 0.354
+banister      : 0.517
+stairs        : 0.751
+stool         : 0.204
+vase          : 0.053
+television    : 0.336
+pot           : 0.092
+desk          : 0.275
+box           : 0.045
+coffee table  : 0.214
+counter       : 0.360
+bench         : 0.206
+garbage bin   : 0.515
+fireplace     : 0.793
+clothes       : 0.471
+bathtub       : 0.821
+book          : 0.000
+air vent      : 0.001
+faucet        : 0.001
+photo         : 0.000
+toilet paper  : 0.001
+fan           : 0.827
+railing       : 0.328
+sculpture     : 0.089
+dresser       : 0.276
+rug           : 0.000
+ottoman       : 0.188
+bottle        : 0.000
+refridgerator : 0.492
+bookshelf     : 0.065
+wardrobe      : 0.049
+pipe          : 0.058
+monitor       : 0.383
+stand         : 0.112
+drawer        : 0.000
+container     : 0.000
+light switch  : 0.000
+purse error!
+door way      : 0.000
+basket        : 0.009
+chandelier    : 0.433
+oven          : 0.271
+clock         : 0.000
+stove         : 0.292
+washing machine: 0.529
+shower curtain: 0.807
+fire alarm    : 0.000
+bin           : 0.002
+chest         : 0.000
+microwave     : 0.038
+blinds        : 0.000
+bowl          : 0.000
+tissue box    : 0.000
+plate         : 0.000
+tv stand      : 0.049
+shoe          : 0.000
+heater        : 0.000
+headboard     : 0.020
+bucket        : 0.000
+candle        : 0.000
+flower pot    : 0.000
+speaker       : 0.000
+furniture     : 0.000
+sign error!
+air conditioner: 0.001
+fire extinguisher: 0.000
+curtain rod   : 0.000
+floor mat     : 0.000
+printer       : 0.034
+telephone     : 0.000
+blanket       : 0.000
+handle        : 0.000
+shower head   : 0.000
+soap          : 0.000
+keyboard      : 0.000
+thermostat    : 0.000
+radiator      : 0.000
+kitchen island: 0.427
+paper towel   : 0.000
+sheet         : 0.000
+glass         : 0.000
+dishwasher    : 0.000
+cup           : 0.000
+ladder error!
+garage door   : 0.525
+hat           : 0.000
+exit sign     : 0.000
+piano         : 0.000
+board         : 0.000
+rope error!
+ball          : 0.540
+excercise equipment: 0.001
+hanger        : 0.000
+candlestick   : 0.000
+light         : 0.000
+scale         : 0.000
+bag           : 0.000
+laptop error!
+treadmill     : 0.884
+guitar error!
+display case  : 0.000
+toilet paper holder: 0.000
+bar           : 0.028
+tray          : 0.000
+urn error!
+decorative plate: 0.000
+pool table    : 0.995
+jacket error!
+bottle of soap: 0.000
+water cooler  : 0.000
+utensil       : 0.000
+tea pot       : 0.000
+stuffed animal: 0.000
+paper towel dispenser: 0.000
+lamp shade    : 0.000
+car           : 0.461
+toilet brush  : 0.000
+doll          : 0.000
+drum          : 0.000
+whiteboard    : 0.000
+range hood    : 0.233
+candelabra    : 0.000
+toy           : 0.000
+foot rest     : 0.000
+soap dish     : 0.000
+placemat error!
+cleaner       : 0.000
+computer      : 0.000
+knob          : 0.000
+paper         : 0.000
+projector     : 0.000
+coat hanger error!
+case          : 0.000
+pan           : 0.000
+luggage error!
+trinket error!
+chimney       : 0.000
+person        : 0.000
+alarm         : 0.000
+Mean IoU 0.14634805101548995
+Mean Acc 0.1856608684576867
+0.13895864344619246 0.14634805101548995
+evaluating 58523887 points...
+classes          IoU
+----------------------------
+wall          : 0.884
+door          : 0.690
+ceiling       : 0.928
+floor         : 0.951
+picture       : 0.550
+window        : 0.508
+chair         : 0.828
+pillow        : 0.771
+lamp          : 0.705
+cabinet       : 0.541
+curtain       : 0.740
+table         : 0.559
+plant         : 0.741
+mirror        : 0.381
+towel         : 0.540
+sink          : 0.499
+shelves       : 0.486
+sofa          : 0.631
+bed           : 0.839
+night stand   : 0.680
+toilet        : 0.807
+column        : 0.361
+banister      : 0.503
+stairs        : 0.753
+stool         : 0.210
+vase          : 0.049
+television    : 0.342
+pot           : 0.095
+desk          : 0.257
+box           : 0.045
+coffee table  : 0.207
+counter       : 0.355
+bench         : 0.238
+garbage bin   : 0.517
+fireplace     : 0.793
+clothes       : 0.431
+bathtub       : 0.822
+book          : 0.000
+air vent      : 0.002
+faucet        : 0.000
+photo         : 0.000
+toilet paper  : 0.001
+fan           : 0.828
+railing       : 0.329
+sculpture     : 0.084
+dresser       : 0.276
+rug           : 0.000
+ottoman       : 0.151
+bottle        : 0.000
+refridgerator : 0.512
+bookshelf     : 0.052
+wardrobe      : 0.046
+pipe          : 0.056
+monitor       : 0.348
+stand         : 0.112
+drawer        : 0.000
+container     : 0.000
+light switch  : 0.000
+purse error!
+door way      : 0.000
+basket        : 0.029
+chandelier    : 0.477
+oven          : 0.289
+clock         : 0.000
+stove         : 0.336
+washing machine: 0.531
+shower curtain: 0.805
+fire alarm    : 0.000
+bin           : 0.000
+chest         : 0.000
+microwave     : 0.035
+blinds        : 0.000
+bowl          : 0.000
+tissue box    : 0.000
+plate         : 0.000
+tv stand      : 0.071
+shoe          : 0.000
+heater        : 0.000
+headboard     : 0.021
+bucket        : 0.000
+candle        : 0.000
+flower pot    : 0.002
+speaker       : 0.000
+furniture     : 0.000
+sign error!
+air conditioner: 0.001
+fire extinguisher: 0.000
+curtain rod   : 0.000
+floor mat     : 0.000
+printer       : 0.036
+telephone     : 0.000
+blanket       : 0.000
+handle        : 0.000
+shower head   : 0.000
+soap          : 0.000
+keyboard      : 0.000
+thermostat    : 0.000
+radiator      : 0.000
+kitchen island: 0.481
+paper towel   : 0.000
+sheet         : 0.000
+glass         : 0.000
+dishwasher    : 0.000
+cup           : 0.000
+ladder error!
+garage door   : 0.371
+hat           : 0.000
+exit sign     : 0.000
+piano         : 0.000
+board         : 0.000
+rope error!
+ball          : 0.540
+excercise equipment: 0.000
+hanger        : 0.000
+candlestick   : 0.000
+light         : 0.000
+scale         : 0.000
+bag           : 0.000
+laptop error!
+treadmill     : 0.898
+guitar error!
+display case  : 0.000
+toilet paper holder: 0.000
+bar           : 0.021
+tray          : 0.000
+urn error!
+decorative plate: 0.000
+pool table    : 0.995
+jacket error!
+bottle of soap: 0.000
+water cooler  : 0.000
+utensil       : 0.000
+tea pot       : 0.000
+stuffed animal: 0.000
+paper towel dispenser: 0.000
+lamp shade    : 0.000
+car           : 0.462
+toilet brush  : 0.000
+doll          : 0.000
+drum          : 0.000
+whiteboard    : 0.000
+range hood    : 0.235
+candelabra    : 0.000
+toy           : 0.000
+foot rest     : 0.000
+soap dish     : 0.000
+placemat error!
+cleaner       : 0.000
+computer      : 0.000
+knob          : 0.000
+paper         : 0.000
+projector     : 0.000
+coat hanger error!
+case          : 0.000
+pan           : 0.000
+luggage error!
+trinket error!
+chimney       : 0.000
+person        : 0.000
+alarm         : 0.000
+Mean IoU 0.14692119805522208
+Mean Acc 0.1854271530677202
+0.13857693847763972 0.14692119805522208
+
+====================================
+CPU Time used: 00:12:33
+CPU Percent: 100%
+Memory usage: 149606308kb
+Approx Power usage: 0.0024000000000000002
+Walltime usage: 00:10:29
+
+====================================

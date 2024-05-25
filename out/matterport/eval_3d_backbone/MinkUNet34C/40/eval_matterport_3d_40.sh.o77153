@@ -1,0 +1,244 @@
+hx1-d09-gpu-04.hx1.hpc.ic.ac.uk
+torch.__version__:2.3.0+cu118
+torch.version.cuda:11.8
+torch.backends.cudnn.version:8700
+torch.backends.cudnn.enabled:True
+evaluating 58523887 points...
+classes          IoU
+----------------------------
+wall          : 0.838
+door          : 0.758
+ceiling       : 0.923
+floor         : 0.940
+picture       : 0.553
+window        : 0.553
+chair         : 0.833
+pillow        : 0.728
+lamp          : 0.693
+cabinet       : 0.547
+curtain       : 0.769
+table         : 0.506
+plant         : 0.716
+mirror        : 0.429
+towel         : 0.524
+sink          : 0.567
+shelves       : 0.440
+sofa          : 0.553
+bed           : 0.806
+night stand   : 0.638
+toilet        : 0.791
+column        : 0.515
+banister      : 0.700
+stairs        : 0.739
+stool         : 0.202
+vase          : 0.010
+television    : 0.445
+pot           : 0.096
+desk          : 0.418
+box           : 0.018
+coffee table  : 0.181
+counter       : 0.483
+bench         : 0.126
+garbage bin   : 0.511
+fireplace     : 0.764
+clothes       : 0.592
+bathtub       : 0.869
+book          : 0.000
+air vent      : 0.000
+faucet        : 0.002
+Mean IoU 0.40742440311726097
+Mean Acc 0.519418972655623
+0.40742440311726097 0.40742440311726097
+evaluating 58523887 points...
+classes          IoU
+----------------------------
+wall          : 0.855
+door          : 0.757
+ceiling       : 0.927
+floor         : 0.945
+picture       : 0.553
+window        : 0.546
+chair         : 0.843
+pillow        : 0.740
+lamp          : 0.710
+cabinet       : 0.551
+curtain       : 0.789
+table         : 0.507
+plant         : 0.750
+mirror        : 0.439
+towel         : 0.557
+sink          : 0.560
+shelves       : 0.474
+sofa          : 0.570
+bed           : 0.808
+night stand   : 0.656
+toilet        : 0.803
+column        : 0.456
+banister      : 0.708
+stairs        : 0.738
+stool         : 0.153
+vase          : 0.006
+television    : 0.445
+pot           : 0.113
+desk          : 0.416
+box           : 0.020
+coffee table  : 0.218
+counter       : 0.479
+bench         : 0.149
+garbage bin   : 0.516
+fireplace     : 0.764
+clothes       : 0.605
+bathtub       : 0.877
+book          : 0.000
+air vent      : 0.000
+faucet        : 0.001
+Mean IoU 0.4222563256663151
+Mean Acc 0.5250781322192719
+0.4126784339344711 0.4222563256663151
+evaluating 58523887 points...
+classes          IoU
+----------------------------
+wall          : 0.859
+door          : 0.760
+ceiling       : 0.929
+floor         : 0.946
+picture       : 0.555
+window        : 0.544
+chair         : 0.847
+pillow        : 0.743
+lamp          : 0.707
+cabinet       : 0.548
+curtain       : 0.779
+table         : 0.507
+plant         : 0.756
+mirror        : 0.443
+towel         : 0.532
+sink          : 0.555
+shelves       : 0.468
+sofa          : 0.574
+bed           : 0.813
+night stand   : 0.682
+toilet        : 0.807
+column        : 0.463
+banister      : 0.708
+stairs        : 0.736
+stool         : 0.171
+vase          : 0.008
+television    : 0.412
+pot           : 0.112
+desk          : 0.412
+box           : 0.021
+coffee table  : 0.222
+counter       : 0.473
+bench         : 0.155
+garbage bin   : 0.482
+fireplace     : 0.775
+clothes       : 0.575
+bathtub       : 0.878
+book          : 0.000
+air vent      : 0.000
+faucet        : 0.001
+Mean IoU 0.4251860857735548
+Mean Acc 0.5239032383172317
+0.4084681471696297 0.4251860857735548
+evaluating 58523887 points...
+classes          IoU
+----------------------------
+wall          : 0.861
+door          : 0.760
+ceiling       : 0.929
+floor         : 0.946
+picture       : 0.554
+window        : 0.545
+chair         : 0.848
+pillow        : 0.745
+lamp          : 0.718
+cabinet       : 0.536
+curtain       : 0.786
+table         : 0.515
+plant         : 0.755
+mirror        : 0.444
+towel         : 0.538
+sink          : 0.550
+shelves       : 0.468
+sofa          : 0.566
+bed           : 0.821
+night stand   : 0.666
+toilet        : 0.799
+column        : 0.459
+banister      : 0.711
+stairs        : 0.738
+stool         : 0.191
+vase          : 0.011
+television    : 0.421
+pot           : 0.114
+desk          : 0.385
+box           : 0.018
+coffee table  : 0.219
+counter       : 0.475
+bench         : 0.159
+garbage bin   : 0.474
+fireplace     : 0.778
+clothes       : 0.606
+bathtub       : 0.876
+book          : 0.000
+air vent      : 0.000
+faucet        : 0.000
+Mean IoU 0.42715637260447614
+Mean Acc 0.5246423812525458
+0.4069132133676342 0.42715637260447614
+evaluating 58523887 points...
+classes          IoU
+----------------------------
+wall          : 0.862
+door          : 0.761
+ceiling       : 0.930
+floor         : 0.947
+picture       : 0.561
+window        : 0.548
+chair         : 0.848
+pillow        : 0.743
+lamp          : 0.715
+cabinet       : 0.526
+curtain       : 0.787
+table         : 0.525
+plant         : 0.754
+mirror        : 0.444
+towel         : 0.537
+sink          : 0.549
+shelves       : 0.467
+sofa          : 0.565
+bed           : 0.817
+night stand   : 0.673
+toilet        : 0.799
+column        : 0.453
+banister      : 0.702
+stairs        : 0.739
+stool         : 0.197
+vase          : 0.013
+television    : 0.433
+pot           : 0.102
+desk          : 0.406
+box           : 0.015
+coffee table  : 0.207
+counter       : 0.474
+bench         : 0.152
+garbage bin   : 0.471
+fireplace     : 0.780
+clothes       : 0.610
+bathtub       : 0.878
+book          : 0.000
+air vent      : 0.000
+faucet        : 0.000
+Mean IoU 0.4275578929709306
+Mean Acc 0.5247593810861122
+0.40866995707650844 0.4275578929709306
+
+====================================
+CPU Time used: 00:04:56
+CPU Percent: 69%
+Memory usage: 39553800kb
+Approx Power usage: 0.0008
+Walltime usage: 00:04:16
+
+====================================
