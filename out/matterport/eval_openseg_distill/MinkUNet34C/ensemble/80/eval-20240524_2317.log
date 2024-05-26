@@ -2078,85 +2078,85 @@ Evaluation 5 out of 5 runs...
 evaluating 58523887 points...
 classes          IoU
 ----------------------------
-wall          : 0.523
-door          : 0.215
-ceiling       : 0.960
-floor         : 0.806
-picture       : 0.209
-window        : 0.432
-chair         : 0.414
-pillow        : 0.686
-lamp          : 0.433
-cabinet       : 0.312
-curtain       : 0.619
-table         : 0.375
-plant         : 0.417
-mirror        : 0.382
-towel         : 0.658
-sink          : 0.533
-shelves       : 0.430
-sofa          : 0.804
-bed           : 0.455
-night stand   : 0.073
-toilet        : 0.846
-column        : 0.306
-banister      : 0.418
-stairs        : 0.802
-stool         : 0.579
-vase          : 0.110
-television    : 0.485
-pot           : 0.466
-desk          : 0.232
-box           : 0.078
-coffee table  : 0.258
-counter       : 0.332
-bench         : 0.041
-garbage bin   : 0.371
-fireplace     : 0.785
-clothes       : 0.005
-bathtub       : 0.767
-book          : 0.123
-air vent      : 0.050
-faucet        : 0.086
-photo         : 0.008
-toilet paper  : 0.434
-fan           : 0.845
-railing       : 0.439
-sculpture     : 0.250
-dresser       : 0.144
-rug           : 0.372
+wall          : 0.408
+door          : 0.136
+ceiling       : 0.710
+floor         : 0.615
+picture       : 0.247
+window        : 0.287
+chair         : 0.233
+pillow        : 0.607
+lamp          : 0.289
+cabinet       : 0.221
+curtain       : 0.604
+table         : 0.209
+plant         : 0.293
+mirror        : 0.171
+towel         : 0.458
+sink          : 0.327
+shelves       : 0.280
+sofa          : 0.618
+bed           : 0.364
+night stand   : 0.109
+toilet        : 0.418
+column        : 0.360
+banister      : 0.158
+stairs        : 0.555
+stool         : 0.295
+vase          : 0.080
+television    : 0.403
+pot           : 0.305
+desk          : 0.163
+box           : 0.171
+coffee table  : 0.234
+counter       : 0.296
+bench         : 0.151
+garbage bin   : 0.189
+fireplace     : 0.598
+clothes       : 0.058
+bathtub       : 0.476
+book          : 0.249
+air vent      : 0.072
+faucet        : 0.105
+photo         : 0.028
+toilet paper  : 0.371
+fan           : 0.581
+railing       : 0.181
+sculpture     : 0.312
+dresser       : 0.128
+rug           : 0.348
 ottoman       : 0.000
-bottle        : 0.010
-refridgerator : 0.374
-bookshelf     : 0.063
-wardrobe      : 0.677
-pipe          : 0.026
-monitor       : 0.188
+bottle        : 0.133
+refridgerator : 0.532
+bookshelf     : 0.078
+wardrobe      : 0.449
+pipe          : 0.133
+monitor       : 0.382
 stand         : 0.000
-drawer        : 0.040
-container     : 0.001
-light switch  : 0.076
+drawer        : 0.067
+container     : 0.017
+light switch  : 0.087
 purse error!
-door way      : 0.326
-basket        : 0.132
-chandelier    : 0.993
-oven          : 0.219
-clock         : 0.319
-stove         : 0.634
-washing machine: 0.658
-shower curtain: 0.720
+door way      : 0.404
+basket        : 0.157
+chandelier    : 0.631
+oven          : 0.342
+clock         : 0.468
+stove         : 0.659
+washing machine: 0.364
+shower curtain: 0.449
 fire alarm    : 0.000
-bin           : 0.017
-chest         : 0.106
-microwave     : 0.230
-blinds        : 0.825
-bowl          : 0.067
-tissue box    : 0.308
+bin           : 0.009
+chest         : 0.129
+microwave     : 0.326
+blinds        : 0.596
+bowl          : 0.142
+tissue box    : 0.410
 plate         : 0.000
-tv stand      : 0.076
-shoe          : 0.039
-heater        : 0.001
-headboard     : 0.001
-bucket        : 0.008
-Mean IoU 0.20622056327884336
+tv stand      : 0.115
+shoe          : 0.423
+heater        : 0.008
+headboard     : 0.006
+bucket        : 0.020
+Mean IoU 0.21608386335551288
 Mean Acc 0.33284550015485614
