@@ -23,7 +23,7 @@ TEST:
   test_gpu: [0]
   test_batch_size: 1
   test_repeats: 10
-  model_path: /gpfs/home/jj1220/FYP/OpenSemantic/out/matterport/train_openseg_distill/MinkUNet18A/21/model/model_best.pth.tar
+  model_path: /gpfs/home/jj1220/FYP/OpenSemantic/out/matterport/train_openseg_distill/MinkUNet34C/21/model/model_best.pth.tar
   save_folder:
 
 Distributed:

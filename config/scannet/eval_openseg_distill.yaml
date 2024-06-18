@@ -1,17 +1,17 @@
 DATA:
-  data_root: data/matterport/matterport_3d_160
-  data_root_2d_fused_feature: data/matterport/matterport_multiview_openseg_test
+  data_root: data/scannet/scannet_3d
+  data_root_2d_fused_feature: data/scannet/scannet_multiview_openseg
   feature_2d_extractor: openseg
-  classes: 160
+  classes: 20
   aug: True
   voxel_size: 0.02
   input_color: False
   use_shm: False
-  
+
 TEST:
   arch_3d: MinkUNet34C
   manual_seed: 3407
-  split: test 
+  split: val
   prompt_eng: True
   mark_no_feature_to_unknown: True
   feature_type: 'ensemble' # 'distill' | 'fusion' | 'ensemble'
@@ -23,7 +23,7 @@ TEST:
   test_gpu: [0]
   test_batch_size: 1
   test_repeats: 10
-  model_path: /gpfs/home/jj1220/FYP/OpenSemantic/out/matterport/train_openseg_distill/MinkUNet34C/21/model/model_best.pth.tar
+  model_path: /gpfs/home/jj1220/FYP/OpenSemantic/out/scannet/train_openseg_distill/MinkUNet34C/test/model/model_best.pth.tar
   save_folder:
 
 Distributed:
