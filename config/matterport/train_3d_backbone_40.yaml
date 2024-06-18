@@ -1,0 +1,36 @@
+DATA:
+  data_root: data/matterport/matterport_3d_40
+  classes: 40
+  aug: True
+  voxel_size: 0.02
+  input_color: False
+  use_shm: False
+
+TRAIN:
+  arch_3d: MinkUNet34C
+  ignore_label: 255
+  train_gpu: [0]
+  workers: 8 
+  batch_size: 8  
+  batch_size_val: 1 
+  base_lr: 0.01
+  loop: 5
+  epochs: 100
+  start_epoch: 0
+  power: 0.9
+  momentum: 0.9
+  weight_decay: 0.0001
+  manual_seed: 3407
+  print_freq: 10
+  save_freq: 1
+  save_path:
+  resume:
+  evaluate: True 
+  eval_freq: 1
+
+Distributed:
+  dist_url: tcp://127.0.0.1:6787
+  dist_backend: 'nccl'
+  multiprocessing_distributed: True
+  world_size: 1
+  rank: 0

@@ -1,0 +1,29 @@
+DATA:
+  data_root: data/matterport/matterport_3d_80
+  classes: 80
+  aug: True
+  voxel_size: 0.02
+  input_color: False
+  use_shm: False
+
+Distributed:
+  dist_url: tcp://127.0.0.1:6787
+  dist_backend: 'nccl'
+  multiprocessing_distributed: True
+  world_size: 1
+  rank: 0
+
+
+TEST:
+  arch_3d: MinkUNet34C
+  split: test 
+  manual_seed: 3407
+  test_workers: 4
+  test_gpu: [0]
+  test_batch_size: 16
+  model_path: /gpfs/home/jj1220/FYP/OpenSemantic/out/matterport/train_openseg_distill/best_collection/model_best.pth.tar
+  save_folder: 
+  test_repeats: 5
+  vis_input: True
+  vis_pred: True
+  vis_gt: True
