@@ -1,0 +1,35 @@
+DATA:
+  data_root: data/kitti360/kitti360_3d
+  data_root_2d_fused_feature: data/kitti360/kitti360_multiview_fusion/val
+  feature_2d_extractor: openseg
+  classes: 19
+  aug: False
+  voxel_size: 0.08
+  input_color: False
+  use_shm: False
+  
+TEST:
+  arch_3d: MinkUNet34C
+  manual_seed: 3407
+  split: val 
+  prompt_eng: True
+  mark_no_feature_to_unknown: True
+  feature_type: 'ensemble' # 'distill' | 'fusion' | 'ensemble'
+  save_feature_as_numpy: False
+  map_nuscenes_details: True
+  vis_input: True
+  vis_pred: True
+  vis_gt: True
+  test_workers: 8
+  test_gpu: [0]
+  test_batch_size: 1
+  test_repeats: 5
+  model_path: /gpfs/home/jj1220/FYP/OpenSemantic/out/kitti360/train_openseg_distill/MinkUNet34C/model/model_best.pth.tar
+  save_folder:
+
+Distributed:
+  dist_url: tcp://127.0.0.1:6787
+  dist_backend: 'nccl'
+  multiprocessing_distributed: True
+  world_size: 1
+  rank: 0
