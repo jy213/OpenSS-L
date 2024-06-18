@@ -5,6 +5,6 @@ We have incorporated and modified code from the following projects:
 - Code related to zero-shot segmentation was derived from [openscene](https://github.com/pengsongyou/openscene).
 - Multiview fusion has been adapted from [OpenSeg](https://github.com/tensorflow/tpu/tree/master/models/official/detection/projects/openseg).
 - We utilize [MinkowskiEngine](https://github.com/NVIDIA/MinkowskiEngine) for handling 3D spatial operations.
-- We utilize [3D_Attention_UNet](https://github.com/mobarakol/3D_Attention_UNet?tab=readme-ov-file) for skip attention mechamism.
+- Skip attention mechamism is modified from [3D_Attention_UNet](https://github.com/mobarakol/3D_Attention_UNet?tab=readme-ov-file).
 
 We are thankful to the developers and maintainers of these projects for their invaluable work.
