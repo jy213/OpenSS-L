@@ -95,7 +95,7 @@ def process_one_scene(data_path, out_dir, args):
 
         # calculate the 3d-2d mapping based on the depth
         mapping = np.ones([n_points, 4], dtype=int)
-        mapping[:, 1:4] = point2img_mapper.compute_mapping(pose, locs_in, depth, intr)
+        mapping[:, 1:4], visibility_score = point2img_mapper.compute_mapping(pose, locs_in, depth, intr)
         if mapping[:, 3].sum() == 0: # no points corresponds to this image, skip
             continue
 

@@ -75,7 +75,7 @@ def process_one_scene(data_path, out_dir, args):
 
         # calculate the 3d-2d mapping (map 3D point cloud data to 2D image coordinates)
         mapping = np.ones([n_points_cur, 4], dtype=int)
-        mapping[:, 1:4] = point2img_mapper.compute_mapping(pose, locs_in, depth=None, intrinsic=intr)
+        mapping[:, 1:4], visibility_score = point2img_mapper.compute_mapping(pose, locs_in, depth=None, intrinsic=intr)
         if mapping[:, 3].sum() == 0: # checks if any 3D points are visible in the current image
             continue
 
